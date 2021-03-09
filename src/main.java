@@ -49,10 +49,10 @@ public class main
             System.out.println("What is your lucky number? (integer)\n");
             luckyNum = input.nextInt();
             
-            System.out.println("Do you have a favorite quarterback? If yes, enter jersey number. (yes or no)\n");
+            System.out.println("Do you have a favorite quarterback? (yes or no)\n");
             yesno = input.next();
             yesno=format(yesno);
-            if (yesno == "yes" || yesno == "y") 
+            if (yesno.equals( "yes") || yesno.equals( "y")) 
             {
                System.out.println("What is their jersey number?\n");
                jerseyNum = input.nextInt();
